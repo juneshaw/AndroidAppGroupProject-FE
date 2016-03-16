@@ -39,6 +39,5 @@ public class Posts {
     public Decision randomPost() {
         int index = randomGenerator.nextInt(this.posts.size());
         return this.getPost(index);
-//        return decision;
     }
 }
