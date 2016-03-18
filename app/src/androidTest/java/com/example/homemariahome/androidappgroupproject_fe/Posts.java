@@ -17,6 +17,10 @@ public class Posts {
         this.posts = posts;
     }
 
+    public void loadPosts () {
+
+    }
+
     public ArrayList<Decision> getPosts() {
 //        HttpURLConnection('')
         return posts;
